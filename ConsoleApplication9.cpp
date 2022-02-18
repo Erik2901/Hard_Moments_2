@@ -190,10 +190,10 @@ int main()
 		book.push_back(srt_var);
 	}
 	
-	//std::cout << count_find(book) << std::endl;
-	//std::cout << count_for(book) << std::endl;
-	//std::cout << for_find(book) << std::endl;
-	//std::cout << for_for(book) << std::endl;
+	count_find(book);
+	count_for(book);
+	for_find(book);
+	for_for(book);
 
 
 	/////////////
